@@ -1,0 +1,45 @@
+<script>
+    document.getElementById('idCB').readOnly = true;
+    document.getElementById('idCBOU').readOnly = true;
+    document.getElementById('idCBRecent').readOnly = true;
+    document.getElementById('idUser').readOnly = true;
+    document.getElementById('idUserDevices').readOnly = true;  
+    
+    document.getElementById("btnserno").addEventListener("click",fetchCBOU);
+    function fetchCBOU(){
+        var sernum = document.getElementById("serial").value;
+        google.script.run
+        .withSuccessHandler(printCBOU)
+        .findCBOU(sernum);
+        document.getElementById("serial").value = "";
+    }
+
+        window.printCBOU = function(CBOU) {
+        console.log('Device info: ' + CBOU);
+        document.getElementById('idCB').value = CBOU[0];
+        document.getElementById('idCBOU').value = CBOU[1];
+        document.getElementById('idCBRecent').value = CBOU[2];
+    }
+    
+    document.getElementById("btnusername").addEventListener("click",fetchUserDevices);
+    function fetchUserDevices(){
+        var uname = document.getElementById("username").value;
+        google.script.run
+        .withSuccessHandler(printUD)
+        .findUserDevices(uname);
+        document.getElementById("username").value = "";
+    }
+
+        window.printUD = function(UD) {
+        console.log('User info: ' + UD);
+        document.getElementById('idUser').value = UD[0];
+        document.getElementById("idUserDevices").innerHTML = "";
+        for (var I = 0; I < UD[1].length; I++)
+        {
+        deviceList = "<li>" + UD[1][I] + "</li>";
+        document.getElementById("idUserDevices").innerHTML += deviceList;
+  }
+
+    }
+
+</script>
