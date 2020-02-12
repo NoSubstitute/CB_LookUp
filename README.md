@@ -21,6 +21,6 @@ When you have selected your options, click Publish. You are then given the exec 
 
 If you ever need to change the code, don't forget to publish a "New" Project version, so your new code is made available to your users. While experimenting, you yourself can always use the linked "latest code", which is a dev version of your code, which doesn't require publishing to run.
 
-PRIVACY POLICY
+# PRIVACY POLICY
 
 You are in full control of all the data. The script is only accessing data you yourself have access to. No data is sent anywhere, except between you and Google. No matter if you create a copy of my Sheet or my scripts, I will never gain access to any of your data. All data reading and writing is done by you on your own account.
