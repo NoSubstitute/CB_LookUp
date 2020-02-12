@@ -15,7 +15,7 @@ findUserOU.gs
 
 Then you save all your code and go to Publish, Deploy as web app.
 
-Choose to run the app as "Me" (meaning your own user, or the user that owns the script, and has access to the CB_ACtivity file). This means that the actual user doesn't have to accept any access to use the web app, as you will do it and act on their behalf. If you want, you can instead choose "User accessing the web app", but then you must make sure that all users that needs to use the web app also has read access to the CB_Actifity file. In some circumstances, that might be preferable.
+Choose to run the app as "Me" (meaning your own user, or the user that owns the script, and has access to the CB_ACtivity file). This means that the actual user doesn't have to accept any access to use the web app, as you will do it and act on their behalf. If you want, you can instead choose "User accessing the web app", but then you must make sure that all users that needs to use the web app also has read access to the CB_Actifity file. In some circumstances, that might be preferable. Do note that then each user will have to allow the script to access the CB_Activity file.
 
 When you have selected your options, click Publish. You are then given the exec URL of your web app, which you can distribute to users who should have access to the app.
 
