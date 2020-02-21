@@ -1,5 +1,5 @@
 # CB_LookUp
-Web app where any domain user can pull Most Recent User and used Chrome devices from CB_Activity, without admin access.
+Web app where any domain user can pull OU and Most Recent User of Chrome devices from CB_Activity, without admin access.
 
 So, to begin with, you need to grab a copy of CB_Activity and set it up.
 https://github.com/NoSubstitute/CB_Activity
@@ -10,15 +10,13 @@ https://github.com/NoSubstitute/CB_Activity
 Then in the files (in this project) listed below you need to add the correct reference to your CB_Activity file.
 In each file there is a phrase "Replace with fileID of your CB_Activity spreadsheet" to where you need to copy your sheetId (the unique middle-part of your Google Sheet URL). Make sure you do not remove the enclosing " " quotation marks. They are essential and must remain in the code.
 
-findCBOU.gs
+queryCBS.gs
 
-findUserDevices.gs
-
-findUserOU.gs
+queryUserDevices.gs
 
 Then you save all your code and go to Publish, Deploy as web app.
 
-Choose to run the app as "Me" (meaning your own user, or the user that owns the script, and has access to the CB_ACtivity file). This means that the actual user doesn't have to accept any access to use the web app, as you will do it and act on their behalf. If you want, you can instead choose "User accessing the web app", but then you must make sure that all users that needs to use the web app also has read access to the CB_Actifity file. In some circumstances, that might be preferable. Do note that then each user will have to allow the script to access the CB_Activity file.
+Choose to run the app as "Me" (meaning your own user, or the user that owns the script, and has access to the CB_Activity file). This means that the actual user doesn't have to accept any access to use the web app, as you will do it and act on their behalf. If you want, you can instead choose "User accessing the web app", since we are sharing the CB_Activity sheet Anyone With Link it really doesn't matter. Just make sure to limit the web app to domain users in the setting "Who has access to the app".
 
 When you have selected your options, click Publish. You are then given the exec URL of your web app, which you can distribute to users who should have access to the app.
 
