@@ -7,7 +7,10 @@ https://github.com/NoSubstitute/CB_Activity
 # VERY IMPORTANT!
 # CB_Activity sheet needs to be shared Anyone With Link
 
-Then in the files (in this project) listed below you need to add the correct reference to your CB_Activity file.
+Then create a new project in script.google.com (call it CB_LookUp) and add the all files listed here as files in your project. The .html files are of course created with "File/New/HTML file" in the menu. The .gs files are created with "File/New/Script file".
+
+Don't forget, in the files (in this project) listed below you need to add the correct reference to your CB_Activity file.
+
 In each file there is a phrase "Replace with fileID of your CB_Activity spreadsheet" to where you need to copy your sheetId (the unique middle-part of your Google Sheet URL). Make sure you do not remove the enclosing " " quotation marks. They are essential and must remain in the code.
 
 queryCBS.gs
