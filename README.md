@@ -7,7 +7,7 @@ https://github.com/NoSubstitute/CB_Activity
 # VERY IMPORTANT!
 # CB_Activity sheet needs to be shared Anyone With Link
 
-Then create a new project in script.google.com (name it CB_LookUp) and add the all files listed here as files in your project. The .html files are of course created with "File/New/HTML file" in the menu. The .gs files are created with "File/New/Script file".
+Then create a new project in https://script.google.com (name it CB_LookUp) and add the all files listed here as files in your project. The .html files are of course created with "File/New/HTML file" in the menu. The .gs files are created with "File/New/Script file".
 
 Don't forget, in the files (in this project) listed below you need to add the correct reference to your CB_Activity file.
 
