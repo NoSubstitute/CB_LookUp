@@ -47,7 +47,7 @@
         var uname = document.getElementById("username").value;
         google.script.run
         .withSuccessHandler(printUD)
-        .findUserDevices(uname);
+        .queryUserDevices(uname);
         document.getElementById("username").value = "";
     }
 
