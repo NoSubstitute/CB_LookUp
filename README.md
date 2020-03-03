@@ -7,23 +7,7 @@ https://github.com/NoSubstitute/CB_Activity
 # VERY IMPORTANT!
 # CB_Activity sheet needs to be shared Anyone With Link
 
-Then create a new project in https://script.google.com (name it CB_LookUp) and add the all files listed here as files in your project. The .html files are of course created with "File/New/HTML file" in the menu. The .gs files are created with "File/New/Script file".
-
-Don't forget, in the files (in this project) listed below you need to add the correct reference to your CB_Activity file.
-
-In each file there is a phrase "Replace with fileID of your CB_Activity spreadsheet" to where you need to copy your sheetId (the unique middle-part of your Google Sheet URL). Make sure you do not remove the enclosing " " quotation marks. They are essential and must remain in the code.
-
-queryCBS.gs
-
-queryUserDevices.gs
-
-Then you save all your code and go to Publish, Deploy as web app.
-
-Choose to run the app as "Me" (meaning your own user, or the user that owns the script, and has access to the CB_Activity file). This means that the actual user doesn't have to accept any access to use the web app, as you will do it and act on their behalf. If you want, you can instead choose "User accessing the web app", since we are sharing the CB_Activity sheet Anyone With Link it really doesn't matter. Just make sure to limit the web app to domain users in the setting "Who has access to the app".
-
-When you have selected your options, click Publish. You are then given the exec URL of your web app, which you can distribute to users who should have access to the app.
-
-If you ever need to change the code, don't forget to publish a "New" Project version, so your new code is made available to your users. While experimenting, you yourself can always use the linked "latest code", which is a dev version of your code, which doesn't require publishing to run.
+# The rest of the instructions are in the wiki https://github.com/NoSubstitute/CB_LookUp/wiki
 
 ![CB_LookUp interface with result](https://i.imgur.com/4I3qjIn.png)
 
