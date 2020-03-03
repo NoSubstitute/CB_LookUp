@@ -1,6 +1,9 @@
 # CB_LookUp
 Web app where any domain user can pull OU and Most Recent User of Chrome devices from CB_Activity, without admin access.
 
+
+![CB_LookUp interface with result](https://i.imgur.com/4I3qjIn.png)
+
 So, to begin with, you need to grab a copy of CB_Activity and set it up.
 https://github.com/NoSubstitute/CB_Activity
 
@@ -9,7 +12,7 @@ https://github.com/NoSubstitute/CB_Activity
 
 # The rest of the instructions are in the wiki https://github.com/NoSubstitute/CB_LookUp/wiki
 
-![CB_LookUp interface with result](https://i.imgur.com/4I3qjIn.png)
+
 
 # PRIVACY POLICY
 
