@@ -13,7 +13,7 @@ function queryUserDevices(uname) {
   else {{var userinfo = userinfoin}
   var qUser = "select B,A,C,D,E where C = '" + userinfo + "'";
   var result = Utils.gvizQuery(
-          "Replace with the file Id of your CB_Activity sheet",
+          "Replace with fileID of your CB_Activity spreadsheet",
     qUser,
     "Devices",
     "A2:E"
