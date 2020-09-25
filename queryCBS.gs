@@ -13,7 +13,7 @@ function queryCBS(sernum) {
   else {{var serno = sernoin}
   var qUser = "select B,A,C,D,E where B contains '" + serno + "'";
   var result = Utils.gvizQuery(
-          "Replace with the file Id of your CB_Activity sheet",
+          "Replace with fileID of your CB_Activity spreadsheet",
     qUser,
     "Devices",
     "A2:E"
