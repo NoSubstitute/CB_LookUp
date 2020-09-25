@@ -11,13 +11,17 @@ function queryCBS(sernum) {
   var sernoin = sernum;
   if (!sernoin.trim()) {{var sernoin = "No serial"};}
   else {{var serno = sernoin}
-  var qUser = "select B,A,D where B contains '" + serno + "'";//You can select any three columns you want to be in the result
+  var qUser = "select B,A,C,D,E where B contains '" + serno + "'";
+  //var qUser = "select B,A,C,D where B contains '" + serno + "'";
   var result = Utils.gvizQuery(
-    "Replace with fileID of your CB_Activity spreadsheet",
+          "15qz1s2uy9xISOREOrh__woKkW00_PMIVuFWMLiNUM2w",//Lomma
     qUser,
     "Devices",
-    "A2:D");//If you change the query above, you may also need to change this range. Remember to edit the column headers, if you do.
-  }
-  Logger.log([serno, result]); // Logging both incoming serial and result to console. Can be disabled.
+    "A2:E"
+);
+        } 
+//  Logger.log([userinfo, result]);
+//  return [userinfo, result];
+  Logger.log([result]);
   return [result];
 }
