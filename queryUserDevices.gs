@@ -12,17 +12,13 @@ function queryUserDevices(uname) {
   if (!userinfoin.trim()) {{var userinfo = "No user"};}
   else {{var userinfo = userinfoin}
   var qUser = "select B,A,C,D,E where C = '" + userinfo + "'";
-  //var qUser = "select B,A,C,D where C = '" + userinfo + "'";
   var result = Utils.gvizQuery(
-          "15qz1s2uy9xISOREOrh__woKkW00_PMIVuFWMLiNUM2w",//Lomma
-//    "select B where D = 'user@your.domain'", 
+          "Replace with the file Id of your CB_Activity sheet",
     qUser,
     "Devices",
     "A2:E"
 );
         } 
   Logger.log([userinfo, result]);
-//  return [userinfo, result];
-//  Logger.log([result]);
   return [result];
 }
