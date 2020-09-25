@@ -12,16 +12,13 @@ function queryCBS(sernum) {
   if (!sernoin.trim()) {{var sernoin = "No serial"};}
   else {{var serno = sernoin}
   var qUser = "select B,A,C,D,E where B contains '" + serno + "'";
-  //var qUser = "select B,A,C,D where B contains '" + serno + "'";
   var result = Utils.gvizQuery(
-          "15qz1s2uy9xISOREOrh__woKkW00_PMIVuFWMLiNUM2w",//Lomma
+          "Replace with the file Id of your CB_Activity sheet",//Lomma
     qUser,
     "Devices",
     "A2:E"
 );
         } 
-//  Logger.log([userinfo, result]);
-//  return [userinfo, result];
   Logger.log([result]);
   return [result];
 }
