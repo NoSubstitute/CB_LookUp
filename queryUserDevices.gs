@@ -11,7 +11,7 @@ function queryUserDevices(uname) {
   var userinfoin = uname;
   if (!userinfoin.trim()) {{var userinfo = "No user"};}
   else {{var userinfo = userinfoin}
-  var qUser = "select B,A,C,D,E where C = '" + userinfo + "'";
+  var qUser = "select B,A,C,D,E where C contains '" + userinfo + "'";
   var result = Utils.gvizQuery(
           "Replace with fileID of your CB_Activity spreadsheet",
     qUser,
