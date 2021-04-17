@@ -4,7 +4,7 @@ Web app where any domain user can pull OU and Most Recent User of Chrome devices
 Resulting list of serials clickable in cooperation with [CB_QueryDetails](https://github.com/NoSubstitute/CB_QueryDetails) for more information on clicked serial number.
 
 
-![CB_LookUp interface with result](https://i.imgur.com/4I3qjIn.png)
+![CB_LookUp interface with result](https://drive.google.com/uc?export=download&id=1H0G7tf3aok76mbjvWP96_Q67vZdVB0Mj)
 
 So, to begin with, you need to grab a copy of CB_Activity and set it up.
 https://github.com/NoSubstitute/CB_Activity
