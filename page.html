@@ -3,7 +3,7 @@
   <head>
     <base target="_top">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>CB_LookUp WebApp</title>
+    <title>CB_LookUp</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -13,23 +13,19 @@
   </head>
   <body>
   <div class="container">
-
-    <h4>Look up Chrome Device Info from CB_Activity</h4>
-    <h6>Database is updated every hour. Search takes a few seconds to complete.</h6>
-    <h5>Search by serial number, or email address (complete/partial)</h5>
+    <h4>CB_LookUp</h4>
+    <h5>Look up Chrome Device Info from CB_Activity</h5>
+    <h6>Database is updated regularly. Search takes a few seconds to complete.</h6>
+    <h5>Search by serial number, or email address (complete/partial).</h5>
     <div class="row">
       <div class="input-field col s4">
       <input placeholder="Enter serial here" type="text" id="serial" class="card-panel #f5f5f5 grey lighten-4 validate"><button class="waves-effect waves-light btn-small" id="btnserno">Submit</button></div>
       <div class="input-field col s4">
       <input placeholder="Enter email address here" type="text" id="username" class="card-panel #f5f5f5 grey lighten-4"><button class="waves-effect waves-light btn-small" id="btnusername">Submit</button></div>
     </div>
-
     <br><br>
     <h4>Results <button class="waves-effect waves-light btn-small" id="clearResults">Clear Results</button></h4>
     <h6>If you click the serial number a new page with more details of that device will open.</h6>
-    <!-- Do note that enabling the previous line requires you first set up CB_QueryDetails, which will act on the clickable links.-->
-    <!-- CB_QueryDetails can be found here https://github.com/NoSubstitute/CB_QueryDetails -->
-
         <table>
           <thead>
           <tr>
@@ -39,14 +35,12 @@
               <th><h6>Last Sync</h6></th>
               <th><h6>Last User Activity</h6></th>
           </tr>
-        </thead>
-        <tbody id="idCBS">
-        </tbody>
+          </thead>
+          <tbody id="idCBS">
+          </tbody>
         </table>
-
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <?!= include("page-js"); ?>
-
   </body>
 </html>
