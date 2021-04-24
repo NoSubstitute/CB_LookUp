@@ -19,6 +19,6 @@ function queryCBS(sernum) {
     "A2:E"
 );
         } 
-  Logger.log([result]);
+  Logger.log([serno, result]);
   return [result];
 }
