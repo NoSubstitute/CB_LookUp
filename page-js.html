@@ -25,19 +25,12 @@
     value3 = innerArray[2];
     value4 = innerArray[3];
     value5 = innerArray[4];
-
-  
-//    console.log(value1 + "__" + value2 + "__" + value3 + "__" + value4 + "__" + value5)
     
     let html='<style>td,th{border:0px solid black;}</style><table>';
-//        html+='<tr><td>' + value1 + '</td><td>' + value2 + '</td><td>' + value3 + '</td><td>' + value4 + '</td><td>' + value5 + '</td></tr>';
         html+='<tr><td><a target="_blank" href="https://script.google.com/a/macros/WebAddressOfTheCB_QueryDetailsWebApp/exec?sn=' + value1 + '">' + value1 + '</a></td><td>' + value2 + '</td><td>' + value3 + '</td><td>' + value4 + '</td><td>' + value5 + '</td></tr>';
         //Do note that enabling the previous line requires you first set up CB_QueryDetails, which will act on the clickable links
         //CB_QueryDetails can be found here https://github.com/NoSubstitute/CB_QueryDetails
     html+='</table>';
-
-// This works just as well as the variant with var myTable below.
-//    document.getElementById("idCBS").innerHTML += html;
     
     var myTable = document.getElementById("idCBS");
     myTable.insertAdjacentHTML("beforeend", html);
@@ -68,18 +61,12 @@
     value3 = innerArray[2];
     value4 = innerArray[3];
     value5 = innerArray[4];
-  
-//    console.log(value1 + "__" + value2 + "__" + value3 + "__" + value4 + "__" + value5)
-    
+      
     let html='<style>td,th{border:0px solid black;}</style><table>';
-//        html+='<tr><td>' + value1 + '</td><td>' + value2 + '</td><td>' + value3 + '</td><td>' + value4 + '</td><td>' + value5 + '</td></tr>';
         html+='<tr><td><a target="_blank" href="https://script.google.com/a/macros/WebAddressOfTheCB_QueryDetailsWebApp/exec?sn=' + value1 + '">' + value1 + '</a></td><td>' + value2 + '</td><td>' + value3 + '</td><td>' + value4 + '</td><td>' + value5 + '</td></tr>';
         //Do note that enabling the previous line requires you first set up CB_QueryDetails, which will act on the clickable links
         //CB_QueryDetails can be found here https://github.com/NoSubstitute/CB_QueryDetails
     html+='</table>';
-
-// This works just as well as the variant with var myTable below.
-//    document.getElementById("idCBS").innerHTML += html;
     
     var myTable = document.getElementById("idCBS");
     myTable.insertAdjacentHTML("beforeend", html);
@@ -90,5 +77,4 @@
     function clrResults(){
         document.getElementById("idCBS").innerHTML = "";
     }
-
 </script>
