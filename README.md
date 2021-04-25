@@ -13,7 +13,8 @@ https://github.com/NoSubstitute/CB_Activity
 # CB_Activity sheet needs to be shared Anyone With Link
 
 # The rest of the instructions are in the wiki https://github.com/NoSubstitute/CB_LookUp/wiki
-
+## Demo site here
+https://tools.no-substitute.com/cb-tools/cb_lookup
 
 
 # PRIVACY POLICY
