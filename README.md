@@ -8,13 +8,12 @@ https://tools.no-substitute.com/cb-tools/cb_lookup
 
 ![CB_LookUp interface with result](https://drive.google.com/uc?export=download&id=1H0G7tf3aok76mbjvWP96_Q67vZdVB0Mj)
 
-So, to begin with, you need to grab a copy of CB_Activity and set it up.
-https://github.com/NoSubstitute/CB_Activity
+So, to begin with, you need to [grab a copy of CB_Activity](https://github.com/NoSubstitute/CB_Activity) and set it up.
 
 # VERY IMPORTANT!
 # CB_Activity sheet needs to be shared Anyone With Link
 
-# The rest of the instructions are in the wiki https://github.com/NoSubstitute/CB_LookUp/wiki
+# The rest of the instructions are [in the wiki](https://github.com/NoSubstitute/CB_LookUp/wiki)
 
 # PRIVACY POLICY
 
