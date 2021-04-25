@@ -10,12 +10,11 @@ https://tools.no-substitute.com/cb-tools/cb_lookup
 
 So, to begin with, you need to [grab a copy of CB_Activity](https://github.com/NoSubstitute/CB_Activity) and set it up.
 
-# VERY IMPORTANT!
-# CB_Activity sheet needs to be shared Anyone With Link
+## VERY IMPORTANT! CB_Activity sheet needs to be shared Anyone With Link
 
-# The rest of the instructions are [in the wiki](https://github.com/NoSubstitute/CB_LookUp/wiki)
+## The rest of the instructions are [in the wiki](https://github.com/NoSubstitute/CB_LookUp/wiki)
 
-# PRIVACY POLICY
+## PRIVACY POLICY
 
 You are in full control of all the data. The script is only accessing data you yourself have access to. No data is sent anywhere, except between you and Google. No matter if you create a copy of my Sheet or my scripts, I will never gain access to any of your data. All data reading and writing is done by you on your own account.
 
