@@ -1,9 +1,9 @@
 # CB_LookUp
-Web app where any domain user can pull OU and Most Recent User of Chrome devices from CB_Activity, without admin access.
+Web app where any domain user can pull OU and Most Recent User of Chrome devices from (CB_Activity](https://github.com/NoSubstitute/CB_Activity), without admin access.
 
 Resulting list of serials clickable in cooperation with [CB_QueryDetails](https://github.com/NoSubstitute/CB_QueryDetails) for more information on clicked serial number.
 ## Demo site here
-https://tools.no-substitute.com/cb-tools/cb_lookup
+https://sites.google.com/no-substitute.com/tools/cb-tools/cb_lookup
 
 
 ![CB_LookUp interface with result](https://drive.google.com/uc?export=download&id=1H0G7tf3aok76mbjvWP96_Q67vZdVB0Mj)
